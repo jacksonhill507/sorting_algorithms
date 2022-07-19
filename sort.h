@@ -1,4 +1,4 @@
-#ifndef SORT_H
+ifndef SORT_H
 #define SORT_H
 
 #include <stdio.h>
@@ -43,4 +43,4 @@ size_t knuth_gap(size_t size);
 void kwiksort(int *array, size_t size, ssize_t low, ssize_t high);
 size_t partition(int *array, size_t size, ssize_t low, ssize_t high);
 void swaps(int *array, size_t size, int *a, int *b);
-#endif 
+#endif /* SORT_H */
